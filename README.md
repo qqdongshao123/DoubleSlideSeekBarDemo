@@ -17,5 +17,5 @@
 2. jeCenter
 在项目的build.gradle文件中引入:
 ```java
-  java
+  implementation 'com.zds.view:doubleslideseekbar:1.0.0'
 ```
