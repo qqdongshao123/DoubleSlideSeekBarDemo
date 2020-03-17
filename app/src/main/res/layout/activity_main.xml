@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.zds.view.DoubleSlideSeekBar
+        android:id="@+id/doubleslide_withoutrule"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        custom:bigValue="1000"
+        custom:hasRule="false"
+        custom:imageBig="@drawable/right"
+        custom:imageLow="@drawable/left"
+        custom:imageheight="20dp"
+        custom:imagewidth="20dp"
+        custom:inColor="#FBCC5B"
+        custom:lineHeight="5dp"
+        custom:outLeftColor="#5CC25B"
+        custom:outRightColor="#F6666D"
+        custom:smallValue="0"
+        custom:textColor="#e40627"
+        custom:textSize="16sp" />
+
+</LinearLayout>

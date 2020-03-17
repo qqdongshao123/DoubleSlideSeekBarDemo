@@ -1,0 +1,2 @@
+include ':app', ':doubleslideseekbar'
+rootProject.name='DoubleSlideSeekBarDemo'
